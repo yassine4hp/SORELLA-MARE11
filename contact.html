@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Sorella Mare</title>
+    <meta
+      name="description"
+      content="Reserve your table and get in touch with Sorella Mare through our contact page."
+    />
+    <meta property="og:title" content="Contact | Sorella Mare" />
+    <meta property="og:description" content="Plan your visit or book a reservation at Sorella Mare." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/placeholder.jpg" />
+    <link rel="icon" href="images/placeholder.jpg" type="image/jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="contact.css">
+  </head>
+  <body>
+    <div class="nav-overlay"></div>
+    <div class="form-toast" aria-live="polite"></div>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Sorella Mare home">Sorella Mare</a>
+        <button
+  class="menu-toggle"
+  type="button"
+  aria-label="Open menu"
+  aria-expanded="false"
+>
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="cta-button" href="contact.html">Reserve Table</a>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="contact-title">
+        <div class="hero-content">
+          <p class="hero-badge">Visit Us</p>
+          <h1 id="contact-title">Reserve a Table or Reach Out</h1>
+          <p>We look forward to welcoming you for a memorable evening by the sea.</p>
+        </div>
+      </section>
+
+      <section class="contact-grid" aria-label="Reservation and contact information">
+        <div class="reservation-form-section reveal-left">
+          <h2>Reservation Form</h2>
+          <form class="reservation-form" id="reservation-form">
+  <div>
+    <label for="name">Full Name</label>
+    <input
+      id="name"
+      name="name"
+      type="text"
+      placeholder="Your name"
+      required
+    />
+  </div>
+
+  <div>
+    <label for="email">Email Address</label>
+    <input
+      id="email"
+      name="email"
+      type="email"
+      placeholder="Your email"
+      required
+    />
+  </div>
+
+  <div>
+    <label for="phone">Phone Number</label>
+    <input
+      id="phone"
+      name="phone"
+      type="tel"
+      placeholder="Your phone number"
+      required
+    />
+  </div>
+
+  <div>
+    <label for="date">Date</label>
+    <input
+      id="date"
+      name="date"
+      type="date"
+      required
+    />
+  </div>
+
+  <div>
+    <label for="time">Time</label>
+    <input
+      id="time"
+      name="time"
+      type="time"
+      required
+    />
+  </div>
+
+  <div>
+    <label for="guests">Guests</label>
+    <input
+      id="guests"
+      name="guests"
+      type="number"
+      min="1"
+      max="12"
+      placeholder="2"
+      required
+    />
+  </div>
+
+  <div>
+    <label for="message">Special Request</label>
+    <textarea
+      id="message"
+      name="message"
+      rows="4"
+      placeholder="Tell us about your occasion"
+    ></textarea>
+  </div>
+
+  <button type="submit">Request Reservation</button>
+
+  
+</form>
+        
+        </div>
+
+        <div class="contact-details">
+          <article class="contact-card reveal-scale delay-1">
+
+            <h2>Opening Hours</h2>
+            <p>Monday to Thursday: 5:30 PM – 10:30 PM</p>
+            <p>Friday to Sunday: 5:00 PM – 11:30 PM</p>
+          </article>
+          <article class="contact-card reveal-scale delay-2">
+            <h2>Phone</h2>
+            <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+          </article>
+          <article class="contact-card reveal-scale delay-3">
+            <h2>Email</h2>
+            <p><a href="mailto:reservations@sorellamare.com">reservations@sorellamare.com</a></p>
+          </article>
+          <article class="contact-card reveal-scale delay-4">
+            <h2>Address</h2>
+            <p>18 Marina Avenue, Coastal District</p>
+            <p>New York, NY 10001</p>
+          </article>
+          
+          <article class="contact-card reveal-scale delay-5">
+            <h2>Social Media</h2>
+            <ul>
+              <li><a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a></li>
+              <li><a href="https://www.facebook.com" target="_blank" rel="noreferrer">Facebook</a></li>
+              <li><a href="https://www.x.com" target="_blank" rel="noreferrer">X</a></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta-section reveal-scale" aria-labelledby="contact-cta-title">
+        <h2 id="contact-cta-title">Let Us Host Your Special Occasion</h2>
+        <a class="cta-button" href="contact.html">Book Your Table</a>
+      </section>
+    </main>
+
+    <footer class="site-footer reveal">
+      <div class="footer-links">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <h2>Stay Connected</h2>
+        <form>
+          <label for="newsletter-email-contact">Email address</label>
+          <input id="newsletter-email-contact" name="newsletter-email-contact" type="email" placeholder="Enter your email" />
+          <button type="submit">Join Newsletter</button>
+        </form>
+      </div>
+      <div class="footer-social">
+        <h2>Follow Us</h2>
+        <ul>
+          <li><a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a></li>
+          <li><a href="https://www.facebook.com" target="_blank" rel="noreferrer">Facebook</a></li>
+          <li><a href="https://www.x.com" target="_blank" rel="noreferrer">X</a></li>
+        </ul>
+      </div>
+      <p>© 2026 Sorella Mare. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

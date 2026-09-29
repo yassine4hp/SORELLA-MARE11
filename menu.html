@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu | Sorella Mare</title>
+    <meta
+      name="description"
+      content="Explore the signature menu at Sorella Mare, featuring starters, seafood, pasta, mains, desserts, and drinks."
+    />
+    <meta property="og:title" content="Menu | Sorella Mare" />
+    <meta property="og:description" content="Browse curated dishes and pairings from Sorella Mare." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/placeholder.jpg" />
+    <link rel="icon" href="images/placeholder.jpg" type="image/jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+        <link rel="stylesheet" href="variables.css">
+        <link rel="stylesheet" href="global.css">
+        <link rel="stylesheet" href="menu.css">
+  </head>
+  <body>
+    <div class="nav-overlay"></div>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Sorella Mare home">Sorella Mare</a>
+         <button
+  class="menu-toggle"
+  type="button"
+  aria-label="Open menu"
+  aria-expanded="false"
+>
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html" aria-current="page">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="cta-button" href="contact.html">Reserve Table</a>
+    </header>
+
+    <main id="main-content">
+      <section class="hero hero-small" aria-labelledby="menu-title">
+        <div class="hero-content">
+          <p class="hero-badge">Seasonal Menu</p>
+          <h1 id="menu-title">A Menu Shaped by Sea,<br> Land, and Craft</h1>
+          <p>Discover refined plates served with warmth, elegance, and precision.</p>
+        </div>
+      </section>
+
+      <section class="menu-section reveal" aria-labelledby="starters-title">
+        <h2 id="starters-title">Starters</h2>
+        <div class="menu-grid">
+          <article class="menu-item reveal-scale delay-1">
+            <div class="image-placeholder">
+                <img src="mn-gallery/carrot-velouté.jpg"
+                      alt="Creamy carrot velouté finished with saffron and toasted seeds">
+            </div> 
+            <div>
+              <h3>Carrot Velouté</h3>
+              <p>Spiced with saffron and finished with toasted seeds.</p>
+              <p class="price">$16</p>
+            </div>
+          </article>
+          <article class="menu-item reveal-scale delay-2">
+            <div class="image-placeholder">
+                <img src="mn-gallery/oyster-trio.jpg"
+                      alt="Fresh oyster trio served with citrus mignonette">
+            </div>
+            <div>
+              <h3>Oyster Trio</h3>
+              <p>Freshly sourced and paired with citrus mignonette.</p>
+              <p class="price">$24</p>
+            </div>
+          </article>
+          <article class="menu-item reveal-scale delay-3">
+            <div class="image-placeholder">
+
+                <img src="mn-gallery/tomato-burrata.jpg"
+                      alt="Tomato burrata with basil oil, aged balsamic, and grilled sourdough">
+            </div>
+            <div>
+              <h3>Tomato Burrata</h3>
+              <p>With basil oil, aged balsamic, and grilled sourdough.</p>
+              <p class="price">$19</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="menu-section reveal" aria-labelledby="seafood-title">
+        <h2 id="seafood-title">Seafood</h2>
+        <div class="menu-grid">
+          <article class="menu-item reveal-scale delay-1">
+            <div class="image-placeholder">
+                <img src="mn-gallery/langoustine-ravioli.jpg"
+                      alt="Delicate langoustine ravioli in saffron butter sauce">
+            </div>
+            <div>
+              <h3>Langoustine Ravioli</h3>
+              <p>Delicate shellfish in saffron butter sauce.</p>
+              <p class="price">$32</p>
+            </div>
+          </article>
+          <article class="menu-item reveal-scale delay-2">
+            <div class="image-placeholder">
+                <img src="mn-gallery/grilled-mediterranean-cod.jpg"
+                      alt="Grilled Mediterranean cod with fennel, olive tapenade, and lemon confit">
+            </div>
+            <div>
+              <h3>Grilled Mediterranean Cod</h3>
+              <p>With fennel, olive tapenade, and lemon confit.</p>
+              <p class="price">$36</p>
+            </div>
+          </article>
+          <article class="menu-item reveal-scale delay-3">
+            <div class="image-placeholder">
+                <img src="mn-gallery/royal-shrimp-skewer.jpg"
+                      alt="Royal shrimp skewer served with garlic herb emulsion and charred greens">
+            </div>
+            <div>
+              <h3>Royal Shrimp Skewer</h3>
+              <p>Served with garlic herb emulsion and charred greens.</p>
+              <p class="price">$28</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="menu-section reveal" aria-labelledby="pasta-title">
+        <h2 id="pasta-title">Pasta</h2>
+        <div class="menu-grid">
+          <article class="menu-item reveal-scale delay-1">
+            <div class="image-placeholder">
+                <img src="mn-gallery/tagliolini-mare.jpg"
+                      alt="Tagliolini Mare with lobster bisque, parsley, and shaved parmesan">
+            </div>
+            <div>
+              <h3>Tagliolini Mare</h3>
+              <p>With lobster bisque, parsley, and shaved parmesan.</p>
+              <p class="price">$34</p>
+            </div>
+          </article>
+          <article class="menu-item reveal-scale delay-2">
+            <div class="image-placeholder">
+                <img src="mn-gallery/squid-ink-linguine.jpg"
+                      alt="Squid Ink Linguine finished with roasted garlic and citrus zest">
+            </div>
+            <div>
+              <h3>Squid Ink Linguine</h3>
+              <p>Finished with roasted garlic and citrus zest.</p>
+              <p class="price">$31</p>
+            </div>
+          </article>
+          <article class="menu-item reveal-scale delay-3">
+            <div class="image-placeholder">
+                <img src="mn-gallery/wild-mushroom-rigatoni.jpg"
+                      alt="Wild Mushroom Rigatoni with thyme cream and pecorino crumble">
+            </div>
+            <div>
+              <h3>Wild Mushroom Rigatoni</h3>
+              <p>With thyme cream and pecorino crumble.</p>
+              <p class="price">$27</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="menu-section reveal" aria-labelledby="mains-title">
+        <h2 id="mains-title">Main Courses</h2>
+        <div class="menu-grid">
+          <article class="menu-item reveal-scale delay-1">
+            <div class="image-placeholder">
+                <img src="mn-gallery/rosemary-lamb.png"
+                      alt="Rosemary Lamb Chop served with fondant potato and jus noir">
+            </div>
+            <div>
+              <h3>Rosemary Lamb Chop</h3>
+              <p>Accompanied by fondant potato and jus noir.</p>
+              <p class="price">$42</p>
+            </div>
+          </article>
+          <article class="menu-item reveal-scale delay-2">
+            <div class="image-placeholder">
+                <img src="mn-gallery/venison-tenderloin.jpg"
+                      alt="Venison Tenderloin with blackberry reduction and smoked shallots">
+            </div>
+            <div>
+              <h3>Venison Tenderloin</h3>
+              <p>With blackberry reduction and smoked shallots.</p>
+              <p class="price">$46</p>
+            </div>
+          </article>
+          <article class="menu-item reveal-scale delay-3">
+            <div class="image-placeholder">
+                <img src="mn-gallery/herb-crusted-chicken.jpg"
+                      alt="Herb-Crusted Chicken with roasted vegetables and herb butter">
+            </div>
+            <div>
+              <h3>Herb-Crusted Chicken</h3>
+              <p>Served with braised leeks and truffle jus.</p>
+              <p class="price">$31</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="menu-section reveal" aria-labelledby="desserts-title">
+        <h2 id="desserts-title">Desserts</h2>
+        <div class="menu-grid">
+          <article class="menu-item reveal-scale delay-1">
+            <div class="image-placeholder">
+                <img src="mn-gallery/vanilla-citrus-tart.jpg"
+                      alt="Vanilla Citrus Tart with whipped mascarpone and citrus glaze">
+            </div>
+            <div>
+              <h3>Vanilla Citrus Tart</h3>
+              <p>Light pastry with whipped mascarpone and citrus glaze.</p>
+              <p class="price">$16</p>
+            </div>
+          </article>
+          <article class="menu-item reveal-scale delay-2">
+            <div class="image-placeholder">
+                <img src="mn-gallery/chocolate-olive-oil-cake.png"
+                      alt="Chocolate Olive Oil Cake with sea salt caramel and candied citrus">
+            </div>
+            <div>
+              <h3>Chocolate Olive Oil Cake</h3>
+              <p>With sea salt caramel and candied citrus.</p>
+              <p class="price">$15</p>
+            </div>
+          </article>
+          <article class="menu-item reveal-scale delay-3">
+            <div class="image-placeholder">
+                <img src="mn-gallery/panna-cotta.jpg"
+                      alt="Panna Cotta with roasted berries and basil syrup">
+            </div>
+            <div>
+              <h3>Panna Cotta</h3>
+              <p>Served with roasted berries and basil syrup.</p>
+              <p class="price">$14</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="menu-section reveal" aria-labelledby="drinks-title">
+        <h2 id="drinks-title">Drinks</h2>
+        <div class="menu-grid">
+          <article class="menu-item reveal-scale delay-1">
+            <div class="image-placeholder">
+                <img src="mn-gallery/signature-spritz.jpg"
+                      alt="Signature Spritz with rosemary and sparkling water">
+            </div>
+            <div>
+              <h3>Signature Spritz</h3>
+              <p>Citrus aperitif with rosemary and sparkling water.</p>
+              <p class="price">$14</p>
+            </div>
+          </article>
+          <article class="menu-item reveal-scale delay-2">
+            <div class="image-placeholder">
+                <img src="mn-gallery/coastal-garden-mocktail.jpg"
+                      alt="Coastal Garden Mocktail with cucumber, basil, and white peach">
+            </div>
+            <div>
+              <h3>Coastal Garden Mocktail</h3>
+              <p>Blend of cucumber, basil, and white peach.</p>
+              <p class="price">$12</p>
+            </div>
+          </article>
+          <article class="menu-item reveal-scale delay-3">
+            <div class="image-placeholder">
+                <img src="mn-gallery/vintage-champagne.jpg"
+                      alt="Vintage Champagne served in a flute with citrus peel">
+            </div>
+            <div>
+              <h3>Vintage Champagne</h3>
+              <p>Elegant pour served in a flute with citrus peel.</p>
+              <p class="price">$24</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer reveal">
+      <div class="footer-links">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <h2>Stay Connected</h2>
+        <form>
+          <label for="newsletter-email-menu">Email address</label>
+          <input id="newsletter-email-menu" name="newsletter-email-menu" type="email" placeholder="Enter your email" />
+          <button type="submit">Join Newsletter</button>
+        </form>
+      </div>
+      <div class="footer-social">
+        <h2>Follow Us</h2>
+        <ul>
+          <li><a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a></li>
+          <li><a href="https://www.facebook.com" target="_blank" rel="noreferrer">Facebook</a></li>
+          <li><a href="https://www.x.com" target="_blank" rel="noreferrer">X</a></li>
+        </ul>
+      </div>
+      <p>© 2026 Sorella Mare. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
